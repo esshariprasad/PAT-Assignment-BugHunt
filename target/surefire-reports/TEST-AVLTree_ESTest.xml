@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="36" failures="0" name="AVLTree_ESTest" time="0.148" errors="1" skipped="0">
+<testsuite tests="36" failures="0" name="AVLTree_ESTest" time="0.144" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib"/>
@@ -64,19 +64,19 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="AVLTree_ESTest" name="test01" time="0.008"/>
-  <testcase classname="AVLTree_ESTest" name="test23" time="0.009"/>
-  <testcase classname="AVLTree_ESTest" name="test00" time="0.002"/>
+  <testcase classname="AVLTree_ESTest" name="test01" time="0.009"/>
+  <testcase classname="AVLTree_ESTest" name="test23" time="0.008"/>
+  <testcase classname="AVLTree_ESTest" name="test00" time="0.003"/>
   <testcase classname="AVLTree_ESTest" name="test22" time="0.003"/>
-  <testcase classname="AVLTree_ESTest" name="test21" time="0.01"/>
+  <testcase classname="AVLTree_ESTest" name="test21" time="0.009"/>
   <testcase classname="AVLTree_ESTest" name="test20" time="0.003"/>
-  <testcase classname="AVLTree_ESTest" name="test05" time="0.012"/>
-  <testcase classname="AVLTree_ESTest" name="test27" time="0.002"/>
+  <testcase classname="AVLTree_ESTest" name="test05" time="0.01"/>
+  <testcase classname="AVLTree_ESTest" name="test27" time="0.003"/>
   <testcase classname="AVLTree_ESTest" name="test04" time="0.006"/>
   <testcase classname="AVLTree_ESTest" name="test26" time="0.002"/>
   <testcase classname="AVLTree_ESTest" name="test03" time="0.002"/>
   <testcase classname="AVLTree_ESTest" name="test25" time="0.002"/>
-  <testcase classname="AVLTree_ESTest" name="test02" time="0.024">
+  <testcase classname="AVLTree_ESTest" name="test02" time="0.02">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at AVLTree.insert(AVLTree.java:46)
 	at AVLTree.insert(AVLTree.java:51)
@@ -1104,27 +1104,27 @@
 	at AVLTree.insert(AVLTree.java:51)
 </error>
   </testcase>
-  <testcase classname="AVLTree_ESTest" name="test24" time="0.004"/>
-  <testcase classname="AVLTree_ESTest" name="test09" time="0.003"/>
-  <testcase classname="AVLTree_ESTest" name="test08" time="0.003"/>
-  <testcase classname="AVLTree_ESTest" name="test07" time="0.008"/>
-  <testcase classname="AVLTree_ESTest" name="test29" time="0.003"/>
-  <testcase classname="AVLTree_ESTest" name="test06" time="0.003"/>
-  <testcase classname="AVLTree_ESTest" name="test28" time="0.004"/>
+  <testcase classname="AVLTree_ESTest" name="test24" time="0.008"/>
+  <testcase classname="AVLTree_ESTest" name="test09" time="0.002"/>
+  <testcase classname="AVLTree_ESTest" name="test08" time="0.006"/>
+  <testcase classname="AVLTree_ESTest" name="test07" time="0.005"/>
+  <testcase classname="AVLTree_ESTest" name="test29" time="0.004"/>
+  <testcase classname="AVLTree_ESTest" name="test06" time="0.006"/>
+  <testcase classname="AVLTree_ESTest" name="test28" time="0.002"/>
   <testcase classname="AVLTree_ESTest" name="test12" time="0.003"/>
-  <testcase classname="AVLTree_ESTest" name="test34" time="0.004"/>
+  <testcase classname="AVLTree_ESTest" name="test34" time="0.003"/>
   <testcase classname="AVLTree_ESTest" name="test11" time="0.001"/>
   <testcase classname="AVLTree_ESTest" name="test33" time="0.003"/>
-  <testcase classname="AVLTree_ESTest" name="test10" time="0.003"/>
-  <testcase classname="AVLTree_ESTest" name="test32" time="0"/>
+  <testcase classname="AVLTree_ESTest" name="test10" time="0.001"/>
+  <testcase classname="AVLTree_ESTest" name="test32" time="0.001"/>
   <testcase classname="AVLTree_ESTest" name="test31" time="0.002"/>
   <testcase classname="AVLTree_ESTest" name="test16" time="0.002"/>
   <testcase classname="AVLTree_ESTest" name="test15" time="0.002"/>
-  <testcase classname="AVLTree_ESTest" name="test14" time="0.003"/>
+  <testcase classname="AVLTree_ESTest" name="test14" time="0.002"/>
   <testcase classname="AVLTree_ESTest" name="test13" time="0.002"/>
-  <testcase classname="AVLTree_ESTest" name="test35" time="0.002"/>
+  <testcase classname="AVLTree_ESTest" name="test35" time="0.001"/>
   <testcase classname="AVLTree_ESTest" name="test19" time="0.002"/>
-  <testcase classname="AVLTree_ESTest" name="test18" time="0.001"/>
+  <testcase classname="AVLTree_ESTest" name="test18" time="0.002"/>
   <testcase classname="AVLTree_ESTest" name="test17" time="0.002"/>
-  <testcase classname="AVLTree_ESTest" name="test30" time="0.003"/>
+  <testcase classname="AVLTree_ESTest" name="test30" time="0.002"/>
 </testsuite>

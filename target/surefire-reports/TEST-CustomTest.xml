@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="CustomTest" time="0.039" errors="1" skipped="0">
+<testsuite tests="2" failures="0" name="CustomTest" time="0.035" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib"/>
@@ -65,7 +65,7 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="CustomTest" name="test00" time="0.008"/>
-  <testcase classname="CustomTest" name="test01" time="0.031">
+  <testcase classname="CustomTest" name="test01" time="0.027">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at AVLTree.insert(AVLTree.java:46)
 	at AVLTree.insert(AVLTree.java:51)

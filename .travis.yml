@@ -9,7 +9,6 @@ sudo: false
 script: "mvn evosuite:genereate"
 script: "mvn evosuite:export"
 script: "mvn test"
-script: "mvn evosuite:info"
 script: "mvn cobertura:cobertura"
 script: "mvn evosuite:info"
 # after_success:
