@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: CustomTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.084 sec <<< FAILURE!
-test01(CustomTest)  Time elapsed: 0.019 sec  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.127 sec <<< FAILURE!
+test01(CustomTest)  Time elapsed: 0.031 sec  <<< ERROR!
 java.lang.StackOverflowError
-	at AVLTree.insert(AVLTree.java:51)
+	at AVLTree.insert(AVLTree.java:46)
 	at AVLTree.insert(AVLTree.java:51)
 	at AVLTree.insert(AVLTree.java:51)
 	at AVLTree.insert(AVLTree.java:51)
