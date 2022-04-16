@@ -6,11 +6,12 @@ jdk:
 - oraclejdk8
 
 sudo: false
-script: "mvn evosuite:genereate"
-script: "mvn evosuite:export"
-script: "mvn cobertura:cobertura"
-script: "mvn evosuite:info"
-script: "mvn test"
+script:
+- "mvn evosuite:genereate"
+- "mvn evosuite:export"
+- "mvn cobertura:cobertura"
+- "mvn evosuite:info"
+- "mvn test"
 # after_success:
   #- bash <(curl -s https://codecov.io/bash)
 
