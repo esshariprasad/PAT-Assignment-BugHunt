@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: AVLTree_ESTest
 -------------------------------------------------------------------------------
-Tests run: 33, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.594 sec <<< FAILURE!
-test01(AVLTree_ESTest)  Time elapsed: 0.028 sec  <<< ERROR!
+Tests run: 36, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.412 sec <<< FAILURE!
+test02(AVLTree_ESTest)  Time elapsed: 0.022 sec  <<< ERROR!
 java.lang.StackOverflowError
 	at AVLTree.insert(AVLTree.java:46)
 	at AVLTree.insert(AVLTree.java:51)
