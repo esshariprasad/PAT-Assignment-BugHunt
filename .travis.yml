@@ -11,9 +11,9 @@ script:
 - "mvn evosuite:export"
 - "mvn cobertura:cobertura"
 - "mvn test"
-- "mvn evosuite:info"
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+
+# after_success:
+#   - bash <(curl -s https://codecov.io/bash)
 
 
 
