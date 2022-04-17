@@ -10,10 +10,10 @@ script:
 - "mvn evosuite:genereate"
 - "mvn evosuite:export"
 - "mvn cobertura:cobertura"
-- "mvn evosuite:info"
 - "mvn test"
-# after_success:
-  #- bash <(curl -s https://codecov.io/bash)
+- "mvn evosuite:info"
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
 
 
 
