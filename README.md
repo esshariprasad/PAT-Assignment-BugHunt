@@ -1,4 +1,4 @@
-# PAT-Assignment-AVL
+# PAT-Assignment-AVL-BugHunt
 
 Avltree test cases generated and tested using evosuite. 
 
