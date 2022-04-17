@@ -7,7 +7,7 @@ jdk:
 
 sudo: false
 script:
-- "mvn evosuite:genereate"
+- "mvn evosuite:generate"
 - "mvn evosuite:export"
 - "mvn cobertura:cobertura"
 - "mvn test"
